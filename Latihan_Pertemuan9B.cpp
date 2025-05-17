@@ -18,4 +18,9 @@ class peminjam
 
 };
 
+class petugas 
+{
+
+};
+
 
