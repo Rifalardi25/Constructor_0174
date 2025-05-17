@@ -11,8 +11,8 @@ class buku
     bool dipinjam;
     
     public:
-        buku(string j, string p) : judul(j), penulis(p), dipinjam(false) {}
-        friend class petugas;
+    buku(string j, string p) : judul(j), penulis(p), dipinjam(false){}
+    friend class petugas;
 
 };
 
@@ -23,8 +23,10 @@ class peminjam
     string id;
     int totalPinjaman;
 
-    
-    
+    public:
+    peminjam(string n, string i) : nama(n), id(i), totalPinjaman(0){}
+    friend class petugas;
+    friend class admin;
 };
 
 class petugas 
@@ -33,11 +35,15 @@ class petugas
     string nama;
     string idPetugas;
     string levelAkses;
+
+    public:
+    petugas(string n, string ip) : nama(n), idPetugas(ip), levelAkses(0){}
+    friend class admin;
 };
 
 class admin 
 {
-    private:
+    
 
 };
 
