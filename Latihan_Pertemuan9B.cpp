@@ -13,3 +13,9 @@ class buku
 
 };
 
+class peminjam
+{
+
+};
+
+
