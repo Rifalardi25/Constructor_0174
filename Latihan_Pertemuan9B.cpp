@@ -15,7 +15,10 @@ class buku
 
 class peminjam
 {
-
+    private:
+    string nama;
+    string id;
+    int totalPinjaman;
 };
 
 class petugas 
