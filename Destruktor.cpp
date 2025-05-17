@@ -3,5 +3,6 @@ using namespace std;
 
 class angka
 {
-    
+    int *arr;
+    int panjang;
 };
