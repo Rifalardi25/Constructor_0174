@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 
@@ -8,8 +9,9 @@ class buku
     string judul;
     string penulis;
     bool dipinjam;
-   
-
+    
+    public:
+    
 
 };
 
@@ -19,6 +21,8 @@ class peminjam
     string nama;
     string id;
     int totalPinjaman;
+
+    
 };
 
 class petugas 
@@ -31,6 +35,7 @@ class petugas
 
 class admin 
 {
-    
+    private:
+
 };
 
