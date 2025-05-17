@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-
+class petugas;
 class buku 
 {
     private:
@@ -11,7 +11,8 @@ class buku
     bool dipinjam;
     
     public:
-    
+        buku(string j, string p) : judul(j), penulis(p), dipinjam(false) {}
+        friend class petugas;
 
 };
 
@@ -22,6 +23,7 @@ class peminjam
     string id;
     int totalPinjaman;
 
+    
     
 };
 
