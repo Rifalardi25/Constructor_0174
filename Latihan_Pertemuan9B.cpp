@@ -23,4 +23,8 @@ class petugas
 
 };
 
+class admin 
+{
+    
+};
 
